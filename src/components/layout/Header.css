@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    font-family: "vazir";
+    direction: rtl;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 0.5rem;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.Header-box{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-right: 1.5rem;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    width: 62%;
+    height: 22px;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #EDEDED;
+    border-radius: 0.5rem;
+}
+.input-box input{
+    border: none;
+    font-size: 14px;
+    outline:none;
+    font-weight: 600;
+    font-family: "vazir";
+
+}
+.input-box input::placeholder{
+    color: #CBCBCB;
+}
+.logo img{
+    width: 89%;
+}
+.Profile-box{
+    width: 25%;
+}
+.Profile{
+    display: flex;
+    align-items: center;
+}
+.Specifications{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.box-name{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    cursor: pointer;
+}
+.box-name p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.box-name > p {
+    margin: 0;
+    font-size: 12px;
+    color: #4564DF;
+    cursor: pointer;
+}
+.icon-Buttoms{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+.settings{
+    cursor: pointer;
+}
+.box-bell{
+    cursor: pointer;
+    position: relative;
+}
+.badge img{
+    position: absolute;
+    bottom: 1.1rem;
+    left: 0.6rem;
+}
