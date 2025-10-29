@@ -5,7 +5,7 @@ export default function SideBar() {
     <div>
         <div className="SideBar">
             <ul className="menu-container">
-                <li data-content="Dashboard" className="selected">
+                <li class="selected">
                     <a href="#">
                     <div className="list-menu">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
@@ -15,7 +15,7 @@ export default function SideBar() {
                     </div>             
                 </a>
             </li>
-                <li data-content="Account-management">
+                <li>
                     <a href="#">
                     <div className="list-menu">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
@@ -25,7 +25,7 @@ export default function SideBar() {
                     </div>           
                 </a>
             </li>
-                <li data-content="payment">
+                <li>
                     <div className="list-box">
                         <a href="#">
                             <div className="list-menu">
@@ -44,13 +44,13 @@ export default function SideBar() {
                             </div>         
                         </a>
                         <ul>
-                            <li data-content="money-transfer" className="menu-selected">انتقال وجه</li>
-                            <li data-content="billing-services">خدمات قبوض</li>
-                            <li data-content="purchase-charge">خرید شارژ</li>
+                            <li>انتقال وجه</li>
+                            <li>خدمات قبوض</li>
+                            <li>خرید شارژ</li>
                         </ul>
                     </div>
             </li>
-                <li data-content="card-services">
+                <li>
                     <div className="list-box">
                         <a href="#">
                             <div className="list-menu">
@@ -70,13 +70,13 @@ export default function SideBar() {
                         </a>
                     </div>
                 <ul>
-                    <li data-content="change-password">تغییر رمز کارت</li>
-                    <li data-content="request-card">درخواست کارت</li>
-                    <li data-content="card-blocking">مسدودی کارت</li>
-                    <li data-content="blocked-cards">کارت های مسدود شده</li>
+                    <li>تغییر رمز کارت</li>
+                    <li>درخواست کارت</li>
+                    <li>مسدودی کارت</li>
+                    <li>کارت های مسدود شده</li>
                 </ul>
             </li>
-                <li data-content="loan-management">
+                <li>
                     <a href="#">
                     <div className="list-menu">
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19">
@@ -86,7 +86,7 @@ export default function SideBar() {
                     </div>
                 </a>
             </li>
-                <li data-content="security-settings">
+                <li>
                     <div className="list-box">
                         <a href="#">
                             <div className="list-menu">
@@ -106,11 +106,11 @@ export default function SideBar() {
                         </a>
                     </div>
                 <ul>
-                    <li data-content="user-account-settings">تنظیمات حساب کاربری</li>
-                    <li data-content="manage-notifications">مدیریت اعلان ها</li>
+                    <li>تنظیمات حساب کاربری</li>
+                    <li>مدیریت اعلان ها</li>
                 </ul>
             </li>
-                <li data-content="customer-service">
+                <li>
                     <div className="list-box">
                         <a href="#">
                             <div className="list-menu">
@@ -130,8 +130,8 @@ export default function SideBar() {
                         </a>
                     </div>
                 <ul>
-                    <li data-content="frequentl-asked-questions">سوالات متداول</li>
-                    <li data-content="contact-us">ارتباط با ما</li>
+                    <li>سوالات متداول</li>
+                    <li>ارتباط با ما</li>
                 </ul>
             </li>
             </ul>
