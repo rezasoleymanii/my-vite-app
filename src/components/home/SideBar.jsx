@@ -2,10 +2,9 @@ import '../../components/home/SideBar.css'
 import commentsImg from '../../assets/img/comments-text.png';
 export default function SideBar() {
     return(
-    <div>
         <div className="SideBar">
             <ul className="menu-container">
-                <li class="selected">
+                <li className="selected">
                     <a href="#">
                     <div className="list-menu">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18">
@@ -137,6 +136,5 @@ export default function SideBar() {
             </ul>
             <div className="comments-text"><img src={commentsImg} alt="" /></div>
         </div>        
-    </div>
     )
 }

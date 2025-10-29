@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    font-family: "vazir";
+    direction: rtl;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
