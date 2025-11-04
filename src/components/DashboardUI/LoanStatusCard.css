@@ -1,0 +1,50 @@
+.header-section ul{
+    display: flex;
+    gap: 0.5rem;
+    padding: 0;
+    height: 36px;
+}
+.header-section ul li{
+    text-align: center;
+    width: 20%;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+.header-section ul li:hover{
+    color: #4C6EF5;
+    border-bottom: 1px solid #4C6EF5;
+    padding: 0.5rem;
+}
+.loan-details{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+.loan-details button{
+    width: 100%;
+    cursor: pointer;
+    font-family: "vazir";
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #4C6EF5;
+    padding: 0.66rem;
+}
+.details-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.detail-row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.detail-row:nth-child(2) .price-details{
+    color: #AE2E2E;
+}

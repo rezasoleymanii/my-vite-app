@@ -1,3 +1,6 @@
+body{
+    font-family: "vazir";
+}
 .header{
     display: flex;
     align-items: center;
@@ -6,12 +9,14 @@
     padding-top: 0.5rem;
     border-bottom: 1px solid #EDEDED;
 }
-
 .Header-box{
     display: flex;
     align-items: center;
     gap: 1.5rem;
     padding-right: 1.5rem;
+}
+.logo img{
+    width: 89%;
 }
 .input-box{
     display: flex;
@@ -34,15 +39,29 @@
 .input-box input::placeholder{
     color: #CBCBCB;
 }
-.logo img{
-    width: 89%;
-}
 .Profile-box{
     width: 25%;
 }
 .Profile{
     display: flex;
     align-items: center;
+}
+.icon-Buttoms{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+.settings{
+    cursor: pointer;
+}
+.box-bell{
+    cursor: pointer;
+    position: relative;
+}
+.badge img{
+    position: absolute;
+    bottom: 1.1rem;
+    left: 0.6rem;
 }
 .Specifications{
     display: flex;
@@ -72,20 +91,21 @@
     color: #4564DF;
     cursor: pointer;
 }
-.icon-Buttoms{
-    display: flex;
-    width: 25%;
-    justify-content: space-between;
+
+
+
+@media (max-width: 1040px) {
+
 }
-.settings{
-    cursor: pointer;
+@media (max-width: 800px) {
+
 }
-.box-bell{
-    cursor: pointer;
-    position: relative;
+@media (max-width: 425px){
+
 }
-.badge img{
-    position: absolute;
-    bottom: 1.1rem;
-    left: 0.6rem;
+@media (max-width: 375px) {
+
+}
+@media (max-width: 320px){
+
 }

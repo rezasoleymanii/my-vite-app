@@ -1,11 +1,12 @@
-import Header from './components/layout/Header';
+import '../src/assets/fonts/vazir.css'
+import Dashboard from "./pages/Dashboard";
 function App() {
 
 
   return (
-    <div>
-      <Header />
-    </div>
+      <div>
+        <Dashboard />
+      </div>
   )
 }
 

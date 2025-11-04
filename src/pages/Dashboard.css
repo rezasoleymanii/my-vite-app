@@ -1,0 +1,32 @@
+.center{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.min-center{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;  
+    width: 74%;
+}
+.loan-banner-summary{
+    display: flex;
+    gap: 1rem;
+    color:#404040 ;
+    width: 95.4%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 50%;
+}
+.history-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}

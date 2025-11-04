@@ -1,0 +1,51 @@
+.table{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 1.5rem;
+    width: 92.7%;
+}
+.header-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    color: #404040;
+}
+.header-table a{
+    text-decoration: none;
+    color: #4C6EF5;
+    font-size: 1rem;
+}
+.transaction table{
+    width: 100%;
+    text-align: right;
+}
+.transaction table tr{
+    color: #868686;
+    height: 56px;
+}
+.transaction table tr th{
+    width: 31%;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.true{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #00A652;
+    border-radius: 1rem;
+    padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+    text-align: center;
+    background-color: #ECFFF3;
+}
+.false{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #AE2E2E;
+    border-radius: 1rem;
+    padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+    text-align: center;
+    background-color: #FFECEC;
+}
