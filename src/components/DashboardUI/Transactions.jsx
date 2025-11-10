@@ -30,7 +30,7 @@ export default function Transactions() {
 
       <div className="transaction">
         <table>
-          <thead>
+          <thead className="thead-liste">
             <tr>
               <th>نوع تراکنش</th>
               <th>مبلغ</th>

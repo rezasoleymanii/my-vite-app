@@ -1,0 +1,45 @@
+.line-chart{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #EDEDED;
+        border-radius: 1rem;
+        padding: 1rem;
+        gap: 1.5rem;
+        width: 92.7%;
+}
+.chart-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        color: #404040;;
+    }
+}
+.option-chart{
+    display: flex;
+    gap: 1rem;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.line-option{
+    display: flex;
+    align-items: baseline;
+    width: 20%;
+    justify-content: space-around;
+    span{
+        color: #404040;
+    }
+}
+.line-color1{
+    width: 100%;
+    height: 5px;
+    border-radius: 1rem;
+    background-color: #4564DF;
+}
+.line-color2{
+    width: 100%;
+    height: 5px;
+    border-radius: 1rem;
+    background-color: #1ECEE9  ;
+}

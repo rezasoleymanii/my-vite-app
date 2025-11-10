@@ -1,0 +1,40 @@
+.filter{
+    display: flex;
+    width: 9%;
+    justify-content: space-evenly;
+}
+.thead-filter > tr > th {
+    width: 18%;
+    font-size: 0.8rem;
+}
+.table-filter tbody tr td{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #0C0C0C;
+}
+.screwer{
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+}
+.screwer li{
+    display: flex;
+    width: 3%;
+    justify-content: space-around;
+    border-radius: 0.3rem;
+    padding: 1px;
+}
+.screwer li a{
+    color: #606060;
+    text-decoration: none;
+}
+.screwer li:nth-child(1) {
+    background-color: #EDEDED;
+    color: #868686;
+}
+.screwer li:nth-child(2)  {
+    background-color: #4C6EF5;
+}
+.screwer li:nth-child(2) a{
+    color: #FFF;
+}
