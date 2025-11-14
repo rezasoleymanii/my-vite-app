@@ -1,0 +1,128 @@
+.successful-payment .profile-card .number-card{
+    display: flex;
+    gap: 0.5rem;
+    width: 44%;
+}
+.billing-services{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+}
+.bills{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 2.5rem;
+    width: 60%;
+}
+.bills-top{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.haeder-bills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.haeder-bills .button-haeder{
+    width: 85%;
+}
+.bills-top .profile-card .description{
+    width: 85%;
+
+    input{
+        padding: 0.5rem;
+        width: 62%;
+    }
+    a{
+        width: 31%;
+    }
+    button{
+        width: 100%;
+        cursor: pointer;
+        font-family: "vazir";
+        font-size: 1rem;
+        color: #fff;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: #4C6EF5;
+        padding: 0.66rem;
+    }
+}
+.bills-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.haeder-bottom span{
+    font-size: 1.2rem;
+    color: #404040;
+    font-weight: 700;
+}
+.bills-bottom .profile-card{
+    gap: 0.8rem;
+    justify-content: flex-start;
+}
+.id-name{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    gap: 0.5rem;
+}
+.ID-bills{
+    display: flex;
+    gap: 0.5rem;
+
+    span{
+        font-size: 0.6rem;
+    }
+}
+.bills-bottom .profile-card .number-card{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    width: 70%;
+
+    a{
+        width: 25%;
+    }
+    button{
+        width: 100%;
+        cursor: pointer;
+        font-family: "vazir";
+        color: #4C6EF5;
+        border-radius: 0.5rem;
+        border:1px solid #4C6EF5 ;
+        background-color: #fff;
+        padding: 0.5rem;
+    }
+}
+.billing-services .bills .profile-card .number-card{
+    display: flex;
+    gap: 0.5rem;
+}
+.titele-payment-billing{
+    display: flex;
+}
+.titele-payment-billing > .option-payment{
+    width: 13%;
+}
+.check-bills{
+        width: 31%;
+
+        button{
+        width: 100%;
+        cursor: pointer;
+        font-family: "vazir";
+        font-size: 1rem;
+        color: #fff;
+        border-radius: 0.5rem;
+        border: none;
+        background-color: #4C6EF5;
+        padding: 0.66rem;
+    }
+}
