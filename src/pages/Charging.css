@@ -1,0 +1,78 @@
+.purchase-charge{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 2.5rem;
+    width: 93%;
+    span{
+        color: #0C0C0C;
+    }
+}
+.charging-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.charging-header img{
+    padding: 1rem 2rem 1rem 2rem;
+}
+.charging-center{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    a{
+        width: 15%;
+    }
+    button{
+        width: 100%;
+        cursor: pointer;
+        font-family: "vazir";
+        color: #fff;
+        border-radius: 0.5rem;
+        border:none;
+        background-color: #4C6EF5;
+        padding: 0.5rem;
+    }
+}
+.charging-center .profile-card{
+    width: 100%;
+}
+.charging-center .profile-card .description{
+    width: 80%;
+}
+.charging-center .profile-card .description input{
+    padding: 0.3rem;
+    width: 40%;
+}
+.charging-center .profile-card .number-card{
+    display: flex;
+    gap: 2rem;
+    width: 80%;
+}
+.charging-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-header span{
+    font-size: 1.2rem;
+    color: #404040;
+    font-weight: 600;
+}
+.charging-footer .profile-card{
+    width: 100%;
+}
+.charging-footer .profile-card .number-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 87%;
+}
+.charging-number{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
